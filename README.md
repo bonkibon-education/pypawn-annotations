@@ -1,6 +1,11 @@
 # pypawn-annotation
 Python библиотека, реализует автоматическую аннотацию для функций из языка программирования pawn.
 
+- Установка последней версии модуля
+```console
+pip install pypawn-annotations
+```
+
 - Пример использования модуля. Аннотация к native функции:
 ```python
 import pypawn_annotations
