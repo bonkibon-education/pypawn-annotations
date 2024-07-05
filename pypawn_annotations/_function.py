@@ -1,9 +1,9 @@
 from re import sub
-from .store import AnnotationQualifier, AnnotationTags
-from .store import ANNOTATION_TAG_NAMES, ANNOTATION_QUALIFIER_NAMES
-from .store import HUNGARIAN_NOTATION_MAX_ITEM_LENGTH, HUNGARIAN_NOTATION_TUPLE
-from .store import FUNC_ARG_STRUCTURE, FUNC_MAX_STRUCTURE_PARAM, FUNC_READ_PATTERN
-from .store import FUNC_FLAG_TITLE, FUNC_FLAG_NAME, FUNC_FLAG_GENERAL_TAG, FUNC_FLAG_ARGS
+from store import AnnotationQualifier, AnnotationTags
+from store import ANNOTATION_TAG_NAMES, ANNOTATION_QUALIFIER_NAMES
+from store import HUNGARIAN_NOTATION_MAX_ITEM_LENGTH, HUNGARIAN_NOTATION_TUPLE
+from store import FUNC_ARG_STRUCTURE, FUNC_MAX_STRUCTURE_PARAM, FUNC_READ_PATTERN
+from store import FUNC_FLAG_TITLE, FUNC_FLAG_NAME, FUNC_FLAG_GENERAL_TAG, FUNC_FLAG_ARGS
 
 
 def _remove_whitespace(string: str) -> str:
@@ -263,5 +263,6 @@ if __name__ == "__main__":
     print("[3] name:", function.name)
     print("[4] args:", function.args)
     print("[5] is_title_tag_function:", function.is_title_function())
-    print("[7] is_title_tag_forward:", function.is_title_forward())
-    print("[8] is_title_tag_native:", function.is_title_native())
+    print("[6] is_title_tag_forward:", function.is_title_forward())
+    print("[7] is_title_tag_native:", function.is_title_native())
+    print("[8] flags:", function.flags())
