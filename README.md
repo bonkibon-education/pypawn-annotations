@@ -91,7 +91,11 @@ functions: tuple = (
 ```
 **Больше примеров здесь:**
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://github.com/bonkibon-education/pypawn-annotations-examples
+=======
+https://github.com/bonkibon-education/pypawn-annotations-examples
+>>>>>>> 15848b47b86a0a76872e1a058fa6dfea1c3025a1
 =======
 https://github.com/bonkibon-education/pypawn-annotations-examples
 >>>>>>> 15848b47b86a0a76872e1a058fa6dfea1c3025a1
