@@ -89,3 +89,6 @@ functions: tuple = (
 	"func global_tag: function_name(bHungarianNotation = value)"
 )
 ```
+
+## Больше примеров здесь:
+https://github.com/bonkibon-education/pypawn-annotations-examples
